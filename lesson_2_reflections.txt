@@ -10,3 +10,7 @@
 
 	You add only the files that are changed in the logical change. To check if the files in the staging area only has one logical change you can run 
 	"git diff --staged" to compare the files in the staging area to the HEAD commit.
+
+- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	If you make an alternate version of the program but you dont want it to replace the main (master) version. Or if you want to try something more experimental or other major changes.
