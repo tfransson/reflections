@@ -9,8 +9,12 @@
 - How can you use the staging area to make sure you have one commit per logical change?
 
 	You add only the files that are changed in the logical change. To check if the files in the staging area only has one logical change you can run 
-	"git diff --staged" to compare the files in the staging area to the HEAD commit.
+	"git diff --staged" to compare the files in the staging area to the last commit.
 
 - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 	If you make an alternate version of the program but you dont want it to replace the main (master) version. Or if you want to try something more experimental or other major changes.
+
+- How do the diagrams help you visualize the branch structure?
+
+	They help to get an overview of the whole tree structure and see what a commit depend on (its mother).
