@@ -5,3 +5,8 @@
 - How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The staging area is a landing spot in between the working directory and the repository. You add files into the staging area before committing them, which is nice since you can choose what files you want to commit. (You can add all files in the working directory by typing "git add --all".)
+
+- How can you use the staging area to make sure you have one commit per logical change?
+
+	You add only the files that are changed in the logical change. To check if the files in the staging area only has one logical change you can run 
+	"git diff --staged" to compare the files in the staging area to the HEAD commit.
