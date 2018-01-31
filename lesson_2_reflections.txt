@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	When you run the command "git init" you create the .git directory. This is where the meta data of your repository will be saved.
