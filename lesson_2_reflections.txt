@@ -18,3 +18,7 @@
 - How do the diagrams help you visualize the branch structure?
 
 	They help to get an overview of the whole tree structure and see what a commit depend on (its mother).
+
+- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The merging of two branches makes them into one branch with commits logged in the chronological order. The changes in both branches will be present in the merged branch. ...?
