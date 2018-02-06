@@ -22,3 +22,7 @@
 - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	The merging of two branches makes them into one branch with commits logged in the chronological order. The changes in both branches will be present in the merged branch. ...?
+
+- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Sometimes automatic merging can cause conflicts if changes have been made to the same part of the code in the merging branches. Always doing it manually can take much more time.
